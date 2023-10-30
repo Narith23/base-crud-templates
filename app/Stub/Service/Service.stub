@@ -1,0 +1,14 @@
+<?php
+
+namespace App\Services\{{ serviceFolder }};
+
+use App\Models\{{ model }};
+use App\Services\BaseService;
+
+class {{ class }} extends BaseService
+{
+    public function __construct({{ model }} ${{ modelNamespace }})
+    {
+        $this->model = ${{ modelNamespace }};
+    }
+}
